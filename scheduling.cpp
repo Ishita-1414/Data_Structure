@@ -199,7 +199,7 @@ void sch::RR()
 		rem_time[i]=Sc[i].burst_time;
 	cout<<"Enter the time Quantum : ";
 	cin>>quantum;
-	int count=0;
+	int count=pr;
 	int t=0;
 	while(count>0)
 	{
